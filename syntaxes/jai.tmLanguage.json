@@ -24,7 +24,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.jai",
-				"match": "\\b(if|else|while|for|return|break|continue)\\b"
+				"match": "\\b(if|else|case|while|for|return|break|continue)\\b"
 			},
 			{
 				"name": "storage.type.jai",
