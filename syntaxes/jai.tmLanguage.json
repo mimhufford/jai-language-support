@@ -28,7 +28,7 @@
 				"match": "\\b(if|else|case|while|for|return|break|continue)\\b"
 			},
 			{
-				"name": "constant.langauge.jai",
+				"name": "constant.language.jai",
 				"match": "\\b(true|false|null)\\b"
 			},
 			{
