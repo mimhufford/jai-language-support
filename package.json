@@ -3,8 +3,10 @@
     "name": "jai-language-support",
     "displayName": "jai-language-support",
     "description": "Jai language support for vscode",
-    "version": "0.0.1",
-    "repository": { "url": "https://github.com/mimhufford/jai-language-support" },
+    "version": "0.0.2",
+    "repository": {
+        "url": "https://github.com/mimhufford/jai-language-support"
+    },
     "engines": {
         "vscode": "^1.44.0"
     },
@@ -12,16 +14,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "jai",
-            "aliases": ["Jai", "jai"],
-            "extensions": ["jai"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "jai",
-            "scopeName": "source.jai",
-            "path": "./syntaxes/jai.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "jai",
+                "aliases": [
+                    "Jai",
+                    "jai"
+                ],
+                "extensions": [
+                    "jai"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "jai",
+                "scopeName": "source.jai",
+                "path": "./syntaxes/jai.tmLanguage.json"
+            }
+        ]
     }
 }
