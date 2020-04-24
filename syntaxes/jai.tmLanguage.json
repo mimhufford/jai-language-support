@@ -5,6 +5,7 @@
 		{ "include": "#block-comments" },
 		{ "include": "#comments" },
 		{ "include": "#keywords" },
+		{ "include": "#numbers" },
 		{ "include": "#strings" }
 	],
 	"repository": {
@@ -34,6 +35,14 @@
 				"name": "storage.type.jai",
 				"match": "\\b(int|u8|u16|u32|u64|s8|s16|s32|s64|float|float32|float64|bool|string|struct)\\b"
 			}]
+		},
+		"numbers": {
+			"patterns": [
+				{
+					"name": "constant.numeric.jai",
+					"match": "([0-9])"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.jai",
