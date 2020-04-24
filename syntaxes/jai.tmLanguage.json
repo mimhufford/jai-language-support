@@ -3,6 +3,9 @@
 	"name": "Jai",
 	"patterns": [
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#keywords"
 		},
 		{
@@ -10,6 +13,14 @@
 		}
 	],
 	"repository": {
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-slash.jai",
+					"match": "(//.*)"
+				}
+			]
+		},
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.jai",
