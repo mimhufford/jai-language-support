@@ -1,8 +1,10 @@
 {
+    "publisher": "Mim",
     "name": "jai-language-support",
     "displayName": "jai-language-support",
     "description": "Jai language support for vscode",
     "version": "0.0.1",
+    "repository": { "url": "https://github.com/mimhufford/jai-language-support" },
     "engines": {
         "vscode": "^1.44.0"
     },
