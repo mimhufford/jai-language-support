@@ -28,6 +28,10 @@
 				"match": "\\b(if|else|case|while|for|return|break|continue)\\b"
 			},
 			{
+				"name": "keyword.other.jai",
+				"match": "(#load|#import|#run)\\b"
+			},
+			{
 				"name": "constant.language.jai",
 				"match": "\\b(true|false|null)\\b"
 			},
