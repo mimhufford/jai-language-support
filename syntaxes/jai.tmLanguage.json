@@ -29,7 +29,7 @@
 			},
 			{
 				"name": "keyword.other.jai",
-				"match": "(#load|#import|#run)\\b"
+				"match": "(#load|#import|#run|#run_and_insert|#must|#complete|#scope_file|#scope_export|#char|#assert|#foreign)\\b"
 			},
 			{
 				"name": "keyword.other.jai",
@@ -41,7 +41,7 @@
 			},
 			{
 				"name": "storage.type.jai",
-				"match": "\\b(int|u8|u16|u32|u64|s8|s16|s32|s64|float|float32|float64|bool|string|struct|enum)\\b"
+				"match": "\\b(int|u8|u16|u32|u64|s8|s16|s32|s64|float|float32|float64|bool|string|void|struct|enum)\\b"
 			}]
 		},
 		"numbers": {
