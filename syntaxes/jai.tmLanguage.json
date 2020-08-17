@@ -29,7 +29,7 @@
 			},
 			{
 				"name": "keyword.other.jai",
-				"match": "(#load|#import|#run|#run_and_insert|#must|#complete|#scope_file|#scope_export|#char|#assert|#foreign)\\b"
+				"match": "(#load|#import|#run|#run_and_insert|#must|#complete|#scope_file|#scope_export|#scope_module|#char|#assert|#foreign)\\b"
 			},
 			{
 				"name": "keyword.other.jai",
