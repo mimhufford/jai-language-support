@@ -25,7 +25,7 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.jai",
-				"match": "\\b(if|else|case|while|for|return|break|continue|defer)\\b"
+				"match": "\\b(if|ifx|else|case|while|for|return|break|continue|defer)\\b"
 			},
 			{
 				"name": "keyword.other.jai",
