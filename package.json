@@ -3,7 +3,7 @@
     "name": "jai-language-support",
     "displayName": "jai-language-support",
     "description": "Jai language support for vscode",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "repository": {
         "url": "https://github.com/mimhufford/jai-language-support"
     },
