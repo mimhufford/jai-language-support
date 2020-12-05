@@ -25,11 +25,11 @@
 		"keywords": {
 			"patterns": [{
 				"name": "keyword.control.jai",
-				"match": "\\b(if|ifx|else|case|while|for|return|break|continue|defer)\\b"
+				"match": "\\b(if|ifx|then|else|case|while|for|return|break|continue|defer)\\b"
 			},
 			{
 				"name": "keyword.other.jai",
-				"match": "(#load|#import|#run|#insert|#must|#complete|#scope_file|#scope_export|#scope_module|#char|#assert|#foreign)\\b"
+				"match": "(#load|#import|#run|#insert|#must|#complete|#scope_file|#scope_export|#scope_module|#char|#assert|#foreign|#through)\\b"
 			},
 			{
 				"name": "keyword.other.jai",
