@@ -47,8 +47,10 @@
 		"numbers": {
 			"patterns": [
 				{
-					"name": "constant.numeric.jai",
-					"match": "([0-9])"
+					"match": "[(:\\s=.,\/*+<>-](\\d*)",
+					"captures": {
+						"1": { "name": "constant.numeric.jai" }
+					}
 				}
 			]
 		},
