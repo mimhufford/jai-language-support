@@ -2,6 +2,8 @@
 
 Simple syntax highlighting for Jai in vscode.
 
+PRs welcome!
+
 ## Features
 
-Syntax highlighting (and not much of it).
+Syntax highlighting.
