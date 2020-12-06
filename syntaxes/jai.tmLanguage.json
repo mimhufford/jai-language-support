@@ -47,6 +47,18 @@
 		"numbers": {
 			"patterns": [
 				{
+					"match": "[(:\\s=.,\/*+<>-](0b[01_]+)",
+					"captures": {
+						"1": { "name": "constant.numeric.jai" }
+					}
+				},
+				{
+					"match": "[(:\\s=.,\/*+<>-](0x[a-fA-F_\\d]+)",
+					"captures": {
+						"1": { "name": "constant.numeric.jai" }
+					}
+				},
+				{
 					"match": "[(:\\s=.,\/*+<>-](\\d*)",
 					"captures": {
 						"1": { "name": "constant.numeric.jai" }
