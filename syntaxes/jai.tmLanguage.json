@@ -33,7 +33,7 @@
 			},
 			{
 				"name": "keyword.other.jai",
-				"match": "\\b(using)\\b"
+				"match": "\\b(using|xx)\\b"
 			},
 			{
 				"name": "constant.language.jai",
